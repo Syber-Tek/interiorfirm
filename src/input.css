@@ -1,0 +1,82 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+	--font-primary: "Playfair Display";
+	--font-secondary: "Inter";
+	--breakpoint-sm: 640px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 1024px;
+	--breakpoint-xl: 1170px;
+	--breakpoint-2xl: 1170px;
+
+	--color-primary: #030605;
+	--color-primary-hover: #202624;
+	--color-accent-1: #ffd476;
+	--color-accent-2: #28887a;
+	--color-accent-2-hover: #24766a;
+	--color-page: #f8fbfa;
+}
+body {
+	@apply font-secondary text-primary;
+}
+a {
+	@apply font-medium hover:text-accent-2 transition-all duration-300;
+}
+.container {
+	@apply px-[15px] xl:px-0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	@apply font-semibold font-primary;
+}
+
+.h1 {
+	@apply text-5xl md:text-6xl xl:text-8xl;
+}
+
+.h2 {
+	@apply text-4xl md:text-5xl xl:text-6xl  leading-tight mb-12 xl:mb-[90px];
+}
+
+.h3 {
+	@apply text-3xl md:text-4xl xl:text-5xl;
+}
+
+.h4 {
+	@apply text-2xl md:text-3xl xl:text-4xl;
+}
+
+.h5 {
+	@apply text-xl md:text-2xl font-medium;
+}
+
+.h6 {
+	@apply text-lg md:text-xl font-medium;
+}
+
+.btn {
+	@apply text-white cursor-pointer;
+}
+
+.btn-sm {
+	@apply h-[52px] px-6;
+}
+
+.btn-lg {
+	@apply min-w-[172px] px-8 h-[60px];
+}
+
+.btn-primary {
+	@apply bg-primary hover:bg-accent-2 transition-all duration-300;
+}
+.btn-accent-2 {
+	@apply bg-accent-2 hover:bg-accent-2-hover transition-all duration-300;
+}

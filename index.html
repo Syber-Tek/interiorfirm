@@ -22,14 +22,14 @@
 <body class="bg-accent-2/20">
 	<!-- site wrapper -->
 	<div class="w-full max-w-[1440px] mx-auto bg-page">
-		<header class=" py-10 px-4">
+		<header class="px-4 py-10 ">
 			<div class="container mx-auto">
 				<div class="flex items-center justify-between">
 					<a href="">
 						<img src="/img/logo.svg" alt="" />
 					</a>
 					<div>
-						<ul class="justify-between items-center gap-6 xl:flex hidden">
+						<ul class="items-center justify-between hidden gap-6 xl:flex">
 							<li>
 								<a href="#" class="">Home</a>
 							</li>
@@ -50,12 +50,12 @@
 					<!-- btn & nav mobile trigger  -->
 					<div>
 						<!-- btn -->
-						<button class="bg-accent-2 btn btn-sm xl:block hidden">
+						<button class="hidden bg-accent-2 btn btn-sm xl:block">
 							Contact Us
 						</button>
 						<!-- nav mobile trigger icon -->
 						<button class="cursor-pointer xl:hidden" id="nav-trigger">
-							<i class="ri-menu-4-fill text-3xl"></i>
+							<i class="text-3xl ri-menu-4-fill"></i>
 
 						</button>
 						<!-- nav mobile -->
@@ -66,9 +66,9 @@
 								<img src="/img/logo.svg" alt="">
 							</a>
 							<!-- menu -->
-							<ul class="w-full flex flex-col items-center gap-12">
+							<ul class="flex flex-col items-center w-full gap-12">
 								<!-- nav mobile close -->
-								<li class="absolute left-6 top-6 bg-accent-2 w-8 h-8 rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
+								<li class="absolute flex items-center justify-center w-8 h-8 text-xl text-white rounded-full cursor-pointer left-6 top-6 bg-accent-2"
 									id="nav-close">
 									<i class="ri-close-line"></i>
 								</li>
@@ -96,14 +96,14 @@
 			<div
 				class="relative z-40 w-full max-w-[1170px] mx-auto h-full xl:border-l border-primary/30  before:content-[''] before:absolute before:top-0 before:border-primary/30 xl:before:border-l before:z-1 before:left-[270px] before:h-full items-center flex">
 
-				<div class="flex mx-auto xl:mx-0 text-center xl:text-left">
+				<div class="flex mx-auto text-center xl:mx-0 xl:text-left">
 					<div class="w-full max-w-[600px] xl:max-w-[720px] px-4 xl:px-0">
-						<h1 class="hero__title h1 mb-8">Modern Interior Design Service</h1>
+						<h1 class="mb-8 hero__title h1">Modern Interior Design Service</h1>
 						<p class="hero__subtitle max-w-[480px] mx-auto xl:mx-0 mb-12">Interiorfirm is an acclaimed
 							multidisciplinary
 							studio specializing in interior architecture,
 							interior design and decor that redefines laid-back luxury </p>
-						<div class="flex xl:absolute justify-center xl:items-start gap-16">
+						<div class="flex justify-center gap-16 xl:absolute xl:items-start">
 							<!-- featured img -->
 							<div class="hero__featuredImg hidden xl:flex w-[270px] h-[478px] bg-gray-200 rounded-full">
 								<img src="/img/hero/img1.png" alt="" />
@@ -111,8 +111,7 @@
 							</div>
 							<!-- cta btn -->
 							<div>
-								<button class="btn btn-lg btn-accent-2 flex items-center gap-3 px-6
-							">
+								<button class="flex items-center gap-3 px-6 btn btn-lg btn-accent-2 ">
 									<span>Explore Now</span>
 									<i class="ri-arrow-right-long-line"></i>
 								</button>
@@ -124,7 +123,7 @@
 				</div>
 			</div>
 			<!-- main img & border-->
-			<div class="hero__mainImg-border absolute z-20 right-0 hidden xl:flex">
+			<div class="absolute right-0 z-20 hidden hero__mainImg-border xl:flex">
 				<!-- main img -->
 				<div class="hero__mainImg w-[780px] h-[600px] rounded-bl-[400px] relative z-20 overflow-hidden">
 					<img src="img/hero/hero-img.jpg" alt="">
@@ -141,14 +140,14 @@
 		<!-- ABOUT -->
 		<section class="about relative min-h-auto xl:h-[614px] border-b border-primary/30">
 
-			<div class="container mx-auto xl:border-x h-full">
+			<div class="container h-full mx-auto xl:border-x">
 				<!-- featured img -->
 				<div class="about__featuredImg w-[278px] h-[418px] rounded-b-full hidden xl:flex absolute left-[32%]">
 					<img src="img/about/img1.png" alt="">
 				</div>
 				<!-- featured img and scroll-down-->
-				<div class="flex gap-4 h-full justify-center ">
-					<div class="flex-1 relative hidden xl:block">
+				<div class="flex justify-center h-full gap-4 ">
+					<div class="relative flex-1 hidden xl:block">
 
 						<!--featured img 2 -->
 						<div class="about__featuredImg2 w-[132px] h-[206px] absolute left-[164px] bottom-0">
@@ -160,10 +159,10 @@
 						</div>
 					</div>
 					<!-- stats& form -->
-					<div class="flex-1 p-12 flex items-center justify-center gap-12">
+					<div class="flex items-center justify-center flex-1 gap-12 p-12">
 						<div class="flex flex-col items-center">
 							<!-- stats -->
-							<div class="about__stats flex mb-12 gap-16">
+							<div class="flex gap-16 mb-12 about__stats">
 								<div class="flex flex-col items-center">
 									<div class="text-5xl xl:text-[72px] font-extrabold leading-none">24</div>
 									<p class="max-w-[100px] text-[20px] leading-6">Years of experience</p>
@@ -176,12 +175,12 @@
 							</div>
 							<!-- form -->
 							<div class="about__form">
-								<h4 class="h4 mb-8 text-center">Design your dream home.</h4>
+								<h4 class="mb-8 text-center h4">Design your dream home.</h4>
 								<form action=""
 									class="flex flex-col xl:flex-row min-h-[135px] xl:min-h-auto gap-4 xl:gap-0 items-center drop-shadow-xl drop-shadow-primary/10">
 									<input type="text " class="bg-white w-full h-[60px] flex-1 outline-none pl-6"
 										placeholder="Your email address" />
-									<button class="btn btn-lg btn-primary w-full xl:w-auto" type="submit"> Let's
+									<button class="w-full btn btn-lg btn-primary xl:w-auto" type="submit"> Let's
 										Chat</button>
 								</form>
 							</div>
@@ -192,21 +191,20 @@
 		</section>
 
 		<!-- SERVICES 1 -->
-		<section class="services border-b border-primary/30">
+		<section class="border-b services border-primary/30">
 			<div class="container mx-auto xl:border-x border-primary/30 pt-[100px] pb-[50px]">
 				<h2 class=" services__title h2 max-w-[468px] mb-12 xl:mb-[90px] text-center mx-auto xl:mx-0">Create your
 					Dream Space</h2>
 
 				<!-- items -->
-				<div class="flex flex-col xl:flex-row items-center xl:items-start">
+				<div class="flex flex-col items-center xl:flex-row xl:items-start">
 					<!-- item 1 -->
 					<div
 						class=" servitces__item flex-1 px-[60px] py-12 h-[440px] max-w-[480px] xl:max-w-max text-center xl:text-left">
 						<div class="w-[110px] h-[110px] mb-11 mx-auto xl:mx-0">
 							<img src="img/services/icon-1.svg" alt="">
 						</div>
-						<h4 class="text-3xl font-medium mb-4
-						">Smooth workflow</h4>
+						<h4 class="mb-4 text-3xl font-medium ">Smooth workflow</h4>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 					</div>
 					<!-- item 2 -->
@@ -215,8 +213,7 @@
 						<div class="w-[110px] h-[110px] mb-11 mx-auto xl:mx-0">
 							<img src="img/services/icon-2.svg" alt="">
 						</div>
-						<h4 class="text-3xl font-medium mb-4
-						">Professionalism</h4>
+						<h4 class="mb-4 text-3xl font-medium ">Professionalism</h4>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 					</div>
 					<!-- item 3 -->
@@ -225,8 +222,7 @@
 						<div class="w-[110px] h-[110px] mb-11 mx-auto xl:mx-0">
 							<img src="img/services/icon-3.svg" alt="">
 						</div>
-						<h4 class="text-3xl font-medium mb-4
-						">Trusted platform</h4>
+						<h4 class="mb-4 text-3xl font-medium ">Trusted platform</h4>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 					</div>
 				</div>
@@ -235,8 +231,7 @@
 
 		<!-- SERVICES 2 -->
 		<section class="services-secondary  xl:h-[1380px] relative border-b border-primary/30">
-			<div class="container mx-auto h-full xl:border-x
-			 border-primary/30 relative z-40">
+			<div class="container relative z-40 h-full mx-auto xl:border-x border-primary/30">
 				<div class="pt-[100px] flex justify-end">
 					<h2 class="services-secondary__title h2 max-w-[600px] mx-auto xl:mx-0 text-center xl:text-right">
 						Providing Innovative Interior Design</h2>
@@ -244,11 +239,36 @@
 			</div>
 
 			<div class="hidden xl:flex absolute left-0 w-full top-[480px]
-			"></div>
+			">
+				<!-- img 1 -->
+				<div class="w-full services-secondary__img1 max-w-[640px] absolute -top-[120px] left-0">
+					<img src="img/services/1.jpg" alt="">
+				</div>
+
+				<!-- img 2 & text -->
+				<div
+					class="w-[1035px] h-[899px] bg-page border-t border-primary/30 absolute top-0 right-0 pl-[30px] pt-[30px]">
+					<div class="w-[870px] h-[870px] absolute top-[30px] z-10 border-l border-primary/30">
+						<div class="w-[870px] h-[470px] rounded-br-[370px] overflow-hidden">
+							<img src="/img/services/2.jpg" alt="" class="w-full h-[470px]">
+						</div>
+					</div>
+					<div
+						class="bg-accent-1 w-[970px] h-[557px] absolute bottom-[30px] right-0 rounded-tr-[370px] flex flex-col justify-end pb-12">
+						<div class="py-12 ml-20 max-w-[660px] relative z-40">
+							<p class="mb-10 text-xl italic leading-relaxed">Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Commodi iste deserunt quam cupiditate dolore tempore! Sequi vitae
+								perferendis quidem cum? </p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
 
 			<!-- show only on mobile -->
 			<div class="xl:hidden bg-accent-1 w-full h-[408px]">
-				<div class="container mx-auto flex items-center h-full">
+				<div class="container flex items-center h-full mx-auto">
 					<div class="py-12 max-w-[680px] mx-auto relative z-40 flex flex-col justify-center items-center">
 						<p class="mb-10 text-lg leading-relaxed text-center">
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis libero cum, voluptates
@@ -260,6 +280,138 @@
 							<img class="hidden xl:flex" src="/img/arrow-right.svg" alt="">
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SERVICES 3 -->
+		<section class="services-tertiary xl:border-b border-primary/30">
+			<div class="container relative z-40 mx-auto xl:border-x border-primary/30">
+				<div class="max-w-[600px] pt-24 mx-auto xl:mx-0">
+					<h2 class="text-center service-tertiary__title h2 not-xl:text-left">
+						We will make Unique Designs for you.
+					</h2>
+				</div>
+				<!-- images  -->
+				<div class="services-tertiary__imgs flex flex-col xl:flex-row gap-[30px] items-center">
+					<div class="flex">
+						<img src="/img/services/s1.png" alt="">
+
+					</div>
+					<div class="flex">
+						<img src="/img/services/s2.png" alt="">
+					</div>
+					<p class="hidden text-xl services-tertiary__p xl:flex xl:py-20">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum, tempora quis, alias
+						amet vero unde sed nesciunt fugiat labore ea dignissimos eaque. Possimus neque corrupti quidem
+						itaque reprehenderit labore!
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- PROJECTS -->
+		<section class="projects">
+			<div class="container mx-auto xl:border-x border-primary/30 ">
+				<h2 class="pt-24 text-center h2 xl:text-right mb-0 pb-[90px]">
+					Amazing Projects from<br />
+					Talented Interior Architects!
+				</h2>
+				<!-- slider -->
+				<div class="porjects__slider swiper mySwiper h-[640px] xl:h-[870px] ">
+					<div class="swiper-wrapper">
+						<!-- swiper 1 -->
+						<div class="relative flex swiper-slide xl:h-full">
+							<div class="h-full bg-accent-2/10 xl:h-[670px]">
+								<img src="/img/projects/slide-1.jpg" alt=""
+									class="object-contain w-full xl:h-full xl:object-cover">
+							</div>
+							<div
+								class="bg-accent-1 h-[400px] md:h-[300px] xl:h-[200px] xl:rounded-bl-[300px] flex items-center absolute bottom-0 w-full">
+								<div class="flex flex-col items-center gap-3 px-0 mx-auto xl:flex-row xl:px-0">
+									<p class="text-lg text-center xl:text-left max-w-[600px] mb-0 xl:mb-0">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non eum explicabo
+										minus exercitationem similique consequuntur porro.
+									</p>
+									<button class="flex items-center gap-3 btn-lg btn-accent-2">
+										<span>Explore Now</span>
+										<i class="ri-arrow-right-long-line"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<!-- swiper 2 -->
+						<div class="relative flex swiper-slide xl:h-full">
+							<div class="h-full bg-accent-2/10 xl:h-[670px]">
+								<img src="/img/projects/slide-1.jpg" alt=""
+									class="object-contain w-full xl:h-full xl:object-cover">
+							</div>
+							<div
+								class="bg-accent-1 h-[400px] md:h-[300px] xl:h-[200px] xl:rounded-bl-[300px] flex items-center absolute bottom-0 w-full">
+								<div class="flex flex-col items-center gap-3 px-0 mx-auto xl:flex-row xl:px-0">
+									<p class="text-lg text-center xl:text-left max-w-[600px] mb-0 xl:mb-0">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non eum explicabo
+										minus exercitationem similique consequuntur porro.
+									</p>
+									<button class="flex items-center gap-3 btn-lg btn-accent-2">
+										<span>Explore Now</span>
+										<i class="ri-arrow-right-long-line"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-button-next xl:mr-4 after:mb-96 xl:after:mb-40">
+
+					</div>
+					<div class="swiper-button-prev xl:ml-4 after:mb-96 xl:after:mb-40">
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- TESTIMONIALS -->
+		<section class="testimonials xl:h-[878px]">
+			<div class="container pt-32 mx-auto xl:border-x border-primary/30">
+				<div class="flex items-center justify-between testimonials__title xl:mb-12">
+
+					<h2 class="mx-auto text-center h2 xl:mx-0 xl:text-left !mb-0">Our Customers <br>Feedback.
+					</h2>
+					<div class="hidden xl:flex">
+						<img src="/img/testimonials/quotes.svg" alt="">
+					</div>
+				</div>
+
+				<!-- slider -->
+				<div class="testimonials__slider swiper mySwiper h-[420px] xl:h-[540px] ">
+					<div class="swiper-wrapper">
+						<!-- swiper 1 -->
+						<div class="h-full swiper-slide">
+							<div class="flex items-center justify-center h-full">
+								<!-- avatar img -->
+								<div class="flex-1 hidden xl:flex">
+									<img src="/img/testimonials/avatar-img-1.png" alt="">
+								</div>
+								<div>
+									<h4 class="text-3xl font-medium font-secondary">Jordyn Borwart</h4>
+									<p class="text-2xl italic text-center xl:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta  repellat dolorem, laudantium incidunt temporibus facere rerum.</p>
+									<p class="text-[22px] text-primary/78">Web Designer</p>
+								</div>
+							</div>
+						</div>
+						<!-- swiper 2 -->
+						<div class="h-full swiper-slide">
+							slider 2
+						</div>
+
+
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div>
 				</div>
 			</div>
 		</section>

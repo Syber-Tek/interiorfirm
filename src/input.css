@@ -95,5 +95,5 @@ a {
 	@apply bg-accent-2;
 }
 .swiper-button-prev {
-	@apply w-10 h-10 bg-primary/80 hover:bg-primary text-white rounded-full after:text-xl after:font-bold after:leading-10;
+	@apply w-10 h-10 rounded-full after:text-xl after:font-bold after:leading-10;
 }
